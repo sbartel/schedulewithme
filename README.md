@@ -31,3 +31,12 @@ $ git push heroku master
 $ heroku run python manage.py migrate
 $ heroku open
 ```
+
+## Migrations
+
+When you change your models in models.py run:
+
+```sh
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
